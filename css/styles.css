@@ -3,6 +3,7 @@ body {
   color: white;
 
 
+
 }
 
 hr {
@@ -73,4 +74,11 @@ hr {
  }
  form{
    padding-left: 4rem;
+ }
+
+ img{
+   height: 28px;
+   width: 26px;
+   padding-left: 4rem;
+   padding-top: 2rem;
  }

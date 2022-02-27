@@ -1,5 +1,8 @@
 body {
-  background-color: #EAF6F6;
+  background-color: #201F1F;
+  color: white;
+
+
 }
 
 hr {
@@ -11,13 +14,63 @@ hr {
   width: 5%;
 }
  h1 {
-   color: #4FD3C4;
+   letter-spacing: -0.05em;
+   padding-left: 4rem;
+   padding-right: 2rem;
+   line-height: 95%;
+   color: white;
+   font-size: 5.8rem;
+   font-family: 'Oswald', sans-serif;
+ }
+ p{
+   letter-spacing: 1px;
+   padding-left: 1rem;
+     padding-top: -0.005rem;
+   color: grey;
+   font-size: 1rem;
+   font-family: 'Courgette', cursive;
+  margin-top: -0.005rem;
+ }
+
+ pre{
+   letter-spacing: 1px;
+   padding-left: 4rem;
+     padding-top: -0.005rem;
+   color: grey;
+   font-size: 1.8rem;
+   font-family: 'Inconsolata', monospace;
+
  }
 
  h2{
-   color: #4FD3C4;
+   letter-spacing: -0.05em;
+   padding-left: 4rem;
+   padding-right: 2rem;
+   line-height: 95%;
+   color: white;
+   font-size: 5.8rem;
+   font-family: 'Oswald', sans-serif;
  }
 
  h3{
-   color: #4FD3C4;
+   color: #93FFD8;
+ }
+
+ .button{
+   color: #FF577F;
+   font-size: 14px;
+   letter-spacing: 4px;
+   font-family: "Open Sans",sans-serif;
+   margin-top: 20px;
+   position: relative;
+   width: 100%;
+   max-width: 220px;
+   height: 50px;
+   line-height: 50px;
+   background-color: #201F1F;
+   text-align: center;
+   border-color: #FF577F;
+ }
+ form{
+   padding-left: 4rem;
  }

@@ -20,8 +20,11 @@ hr {
    padding-right: 2rem;
    line-height: 95%;
    color: white;
-   font-size: 5.8rem;
+   font-size: 4.8rem;
    font-family: 'Oswald', sans-serif;
+ }
+ h1:hover{
+   color: #DEEEEA;
  }
  p{
    letter-spacing: 1px;
@@ -70,15 +73,29 @@ hr {
    line-height: 50px;
    background-color: #201F1F;
    text-align: center;
+   border: solid;
    border-color: #FF577F;
  }
  form{
    padding-left: 4rem;
  }
 
- img{
+/* img{
    height: 28px;
    width: 26px;
    padding-left: 4rem;
    padding-top: 2rem;
+ } */
+
+ .icon{
+   height: 28px;
+   width: 26px;
+   padding-left: 4rem;
+   padding-top: 2rem;
+ }
+
+ .button:hover{
+   background-color: #FF577F;
+   color: black;
+
  }
